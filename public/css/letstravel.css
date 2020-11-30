@@ -1,0 +1,94 @@
+.mt-20{
+	margin-top: 20px;
+}
+footer{
+	height: 80px;
+	margin-top: 50px;
+}
+
+footer>.container, footer .row{
+	height: 100%;
+}
+
+.page-wrapper{
+	/* for rounded corners */
+	border-radius: 10px; 
+
+	margin: 50px auto;
+
+	box-shadow: 0 0 10px #ccc;
+
+	padding: 20px 15px;
+}
+
+.page-wrapper h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.card-block{
+	padding: 15px;
+}
+/* This W's are to align the article on admin page in proper order */
+.w100{
+	width: 100%;
+}
+.w60{
+	width: 60%;
+}
+.w30{
+	width: 30%;
+}
+.w20{
+	width: 20%;
+}
+.w10{
+	width: 10%;
+}
+.w5{
+	width: 5%;
+}
+.articles{
+	 margin-top: 15px;
+}
+.article-inline:nth-of-type(odd){
+	/* This for alternate grey color for article */
+	background: rgba(0,0,0,0.05);
+
+}
+.article-inline{
+	padding-left: 10px;
+	flex-wrap: wrap;
+}
+
+.sight-container{
+	margin-top: 15px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #ccc;
+	padding: 15px 50px;
+}
+.sight-container h1{
+	text-align: center;
+}
+.sight-container img{
+	width: 100%;
+}
+.date{
+	font-weight: bold;
+}
+.map{
+	height: 400px;
+}
+.login-conatiner{
+	margin-top: 50px;
+	padding: 20px 15px 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #ccc;
+}
+.login-conatiner h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#myTabContent{
+	margin-top: 20px;
+}
